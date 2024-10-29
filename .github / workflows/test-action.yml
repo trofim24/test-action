@@ -1,0 +1,10 @@
+on:
+  push:
+    branches: '**'
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set config to run
+        run: echo "1 : 1"
